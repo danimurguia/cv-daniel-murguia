@@ -1,0 +1,23 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white !important;
+}
+
+.navbar-toggler  {
+  background-color: whitesmoke !important;
+}
+
+.nav-link:hover {
+ text-decoration: underline;
+ transition: ease-in .3s;
+}
+ .active {
+ text-decoration: underline;
+
+}
+
+

@@ -1,0 +1,70 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.home {
+  background-image: url('../assets/homeBack.png');
+  background-size: cover;
+  min-height: 120vh;
+  width: 100%;
+  position: relative;
+  overflow-x: hidden;
+ 
+}
+
+
+
+.navbarTransparent nav {
+  background-color: transparent !important ;
+  font-style: white !important;
+  position: fixed;
+  opacity: .9;
+  width: 100%;
+  padding: 0%;
+  display: flex;
+  transition: ease-out .3s ;
+
+}
+.navbarColored nav {
+  background-color: transparent !important ;
+  position: fixed;
+  opacity: .9;
+  width: 100%;
+  padding: 0%;
+  display: flex;
+  transition: ease-in .2s ;
+  
+}
+
+
+.phrase {
+  position: absolute;
+  display:flex;
+  margin-top: 50vh;
+  margin-left: 10vw;
+  color: aliceblue;
+  font-size: 2.5em;
+  font-family: 'Bebas Neue', cursive;
+  
+  
+}
+.phrase h2 {
+  
+  font-weight:lighter;
+  
+}
+
+.backColor {
+  color: beige !important;
+  background-color: transparent;
+  width: 100%;
+  margin-top: 105vh;
+
+}
+
+
+
+
+
+
+
