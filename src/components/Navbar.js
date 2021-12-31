@@ -48,14 +48,12 @@ export const Navbar = () => {
           <NavLink  className="nav-link" aria-current="page" to='/'>Home</NavLink>
         </li>
         <li className="nav-item">
-        <NavLink className="nav-link" aria-current="page" to='/acerca'>Acerca de mi</NavLink>
+        <NavLink className="nav-link" aria-current="page" to='/acerca'>Acerca de mí</NavLink>
         </li>
         <li className="nav-item">
           <NavLink className="nav-link" to='/portafolio'>Portafolio</NavLink>
         </li>
-        <li className="nav-item">
-          <NavLink className="nav-link" to='/contacto'> Contacto</NavLink>
-        </li>
+        
       </ul>
     </div>
   </div>

@@ -8,6 +8,7 @@ import { Footer } from './components/Footer';
 
 
 
+
 export const CvApp = () => {
  
   
@@ -32,12 +33,20 @@ export const CvApp = () => {
       <div className={styles.phrase}>
 
       <h1 className='animate__animated animate__fadeInLeft' >
-    "El éxito... es la suma de pequeños esfuerzos repetidos día a día"
+    El éxito... es la suma de pequeños esfuerzos repetidos día a día
     </h1> 
     
     <h2 className='animate__animated animate__fadeInRight' >
     <br/> <br/> - Robert Collier
     </h2>
+
+      <a 
+    className={styles.buttonSurprise}
+    href= 'https://theuselessweb.com/'
+    target='blank'>
+       ¡No me des click! 
+  
+       </a>
 
       </div>
 

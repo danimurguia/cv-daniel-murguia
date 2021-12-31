@@ -1,11 +1,74 @@
 
 .navbarPortfolio nav {
    
-  background-color: rgba(5, 5, 44, 0.808)  !important ;
+  background-color: rgba(7, 7, 58, 0.808)  !important ;
   position: fixed;
-  opacity: .9;
   width: 100%;
   padding: 0%;
   display: flex;
   transition: ease-out .45s ;
+  z-index: 2;
+  overflow-x: hidden;
 }
+
+.gifAndBackground {
+  width: 100%;
+overflow-x: hidden;
+}
+
+.gifAndBackground img {
+  width: 100%;
+  position: relative;
+  overflow-x: hidden;
+  display: block;
+}
+
+.gifAndBackground #consultaTitle {
+  position: absolute;
+  z-index: 1;
+  margin-top: 34vh;
+  margin-left: 57vw;
+  display: flex;
+  padding-right: 5vw;
+  color: white;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  }
+
+
+ .gifAndBackground #consultaParagraph {
+  position: absolute;
+  z-index: 1;
+  margin-top: 42vh;
+  margin-left: 57vw;
+  display: flex;
+  padding-right: 5vw;
+  color: white;
+  overflow-x: hidden;
+  }
+
+.gifAndBackground #calendarTitle {
+position: absolute;
+z-index: 1;
+margin-top: 33vh;
+margin-left: 5vw;
+display: flex;
+padding-right: 60vw;
+overflow-x: hidden;
+}
+
+.gifAndBackground #calendarParagraph {
+  position: absolute;
+  z-index: 1;
+  margin-top: 40vh;
+  margin-left: 5vw;
+  display: flex;
+  padding-right: 60vw;
+  overflow-x: hidden;
+  }
+
+  .portafolioFooter {
+    background-color: black;
+    color: whitesmoke;
+  }
+

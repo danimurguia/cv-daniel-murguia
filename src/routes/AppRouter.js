@@ -3,7 +3,6 @@ import { CvApp } from '../CvApp';
 import { Routes, Route} from "react-router-dom";
 import { AcercaDeMi } from '../components/AcercaDeMi';
 import { Portafolio } from '../components/Portafolio';
-import { Contacto } from '../components/Contacto';
 import { NotFoundRoute } from '../components/NotFoundRoute';
 
 
@@ -17,7 +16,6 @@ export const AppRouter = () => {
         <Route path="/" element={<CvApp />} />
         <Route path="acerca" element={<AcercaDeMi />} />
         <Route path="portafolio" element={<Portafolio />} />
-        <Route path="contacto" element={<Contacto />} />
         <Route path="*" element={<NotFoundRoute />} />
        
       </Routes>

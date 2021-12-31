@@ -5,7 +5,7 @@ body {
 .home {
   background-image: url('../assets/homeBack.png');
   background-size: cover;
-  min-height: 120vh;
+  height: 100%;
   width: 100%;
   position: relative;
   overflow-x: hidden;
@@ -42,16 +42,15 @@ body {
   display:flex;
   margin-top: 50vh;
   margin-left: 10vw;
-  color: aliceblue;
-  font-size: 2.5em;
-  font-family: 'Bebas Neue', cursive;
-  
-  
+  color: whitesmoke;
+  font-size: 2em;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 900;
 }
+
 .phrase h2 {
-  
   font-weight:lighter;
-  
+  margin-right: 5vw;
 }
 
 .backColor {
@@ -60,6 +59,22 @@ body {
   width: 100%;
   margin-top: 105vh;
 
+}
+
+.buttonSurprise {
+  position: absolute;
+  font-size:medium;
+  color: transparent;
+  margin-top: 25vh;
+  margin-left: 35vw;
+  
+
+}
+
+.buttonSurprise:hover {
+  color: blue;
+  
+  
 }
 
 

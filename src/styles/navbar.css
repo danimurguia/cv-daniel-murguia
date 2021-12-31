@@ -6,6 +6,9 @@ body {
 .navbar-light .navbar-nav .nav-link {
   color: white !important;
 }
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end !important;
+}
 
 .navbar-toggler  {
   background-color: whitesmoke !important;

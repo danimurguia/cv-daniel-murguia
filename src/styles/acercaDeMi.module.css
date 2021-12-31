@@ -1,23 +1,60 @@
 
 
-
  .navbarAcercaDeMi nav {
 
-  background-color: rgba(5, 5, 44, 0.808) !important ;
+  background-color: rgba(5, 5, 44, 0.808)  !important ;
   position: fixed;
-  opacity: .9;
   width: 100%;
   padding: 0%;
   display: flex;
   transition: ease-out .45s ;
+  z-index: 1;
 }
 
-.prueba{
+.imgAboutMe {
+  position: relative;
   display: flex;
-  margin-top: 50px;
-  width: 30vw;
-  height: 40vh;
-
-
+  margin-top: 20vh;
+  margin-left: 5vw;
+  height: 65vh;
 }
 
+.textAbouMe {
+  display: flex;
+ margin-right: 10vh;
+ padding-left: 10vw;
+ border: none;
+}
+
+ .card  {
+  border: none ;
+}
+
+.acercaDeMiFooter {
+position: relative;
+margin-top: 150vh;
+background-color: black;
+color: aliceblue;
+}
+
+.despedidaAboutMe {
+margin-left: 40vw;
+}
+
+
+
+.tecnosAboutMe {
+  position: absolute;
+  margin-top: 40vh;
+  margin-left: 22vw;
+  
+  
+}
+
+.tecnosAboutMe h5 {
+  margin-left: 5vw;
+  margin-top: -5vh;
+ display: flex;
+ 
+}
+ 
