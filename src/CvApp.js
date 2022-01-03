@@ -51,9 +51,9 @@ export const CvApp = () => {
       </div>
 
       
-      <div className={styles.backColor} >
+      <footer className={styles.backColor} >
       <Footer />
-      </div>
+      </footer>
   
     </div>
 

@@ -51,7 +51,7 @@ export const AcercaDeMi = () => {
         </span>
         <br/>
           <span className={styles.despedidaAboutMe}>
-          Daniel Murguia 
+          Daniel 
           </span>
 
       </CardText>
@@ -117,11 +117,11 @@ export const AcercaDeMi = () => {
 </div>
 
 
-<div className={styles.acercaDeMiFooter}>
+<footer className={styles.acercaDeMiFooter}>
 
     <Footer />
 
- </div>
+ </footer>
 
     </>
     

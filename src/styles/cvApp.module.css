@@ -73,10 +73,18 @@ body {
 
 .buttonSurprise:hover {
   color: blue;
-  
-  
 }
 
+@media (max-width: 600px) {
+  .phrase  {
+    font-weight:lighter;
+    margin-top: 25vh;
+    padding: 10%;
+  }
+  .phrase h2 {
+    margin-top: 20vh;
+  }
+}
 
 
 

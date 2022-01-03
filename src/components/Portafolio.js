@@ -2,8 +2,10 @@ import React from 'react';
 import {Helmet} from "react-helmet";
 import { Navbar } from './Navbar';
 import styles from '../styles/portfolio.module.css';
-import consultaFitBackImage from '../assets/consultaFitBackImage.gif';
-import calendadAppBackImage from '../assets/calendadAppBackImage.gif';
+import consultaFitPage from '../assets/consultaFitGif.gif';
+import calendarAppGif from '../assets/calendarAppGif.gif'
+
+
 import { Footer } from './Footer';
 
 export const Portafolio = () => {
@@ -26,71 +28,53 @@ export const Portafolio = () => {
 
  {/* Proyectos del portafolio */}
 
-      <section className={styles.gifAndBackground}>
+          <section className={styles.consultaBackground}>
+   
+              
+             <img className={styles.consultaGif} src={consultaFitPage} alt="Consulta Fit" />
 
-          <h3 id={styles.consultaTitle}>
-            CONSULTA FIT
-          </h3>
+             <h3 className='animate__animated animate__fadeInRight' id={styles.consultaTitle}>
+            Consulta Fit
+            </h3>
 
 
-          <p className='animate__animated animate__fadeInRight' id={styles.consultaParagraph}>
+             <p className='animate__animated animate__fadeInRight' id={styles.consultaParagraph}>
               Cuando tienes una tienda en redes sociales, el siguiente paso es tener una página web en donde los clientes puedan ver, elegir y comprar los productos. Este proyecto, es justo llevar la tienda en línea a otro nivel. Un E - Commerce personalizado en donde existe la posibilidad que desde una cuenta de usuario, el administrador sea quien agregre, modifique o elimine productos.
-          </p>
+             </p>
 
-        <div className='row'>
-          <div>
-          
-            <img src={consultaFitBackImage} alt="Consulta Fit" />
             
 
-          </div>
+            </section>
+
+
+
+
+      <section className={styles.calendarBackground} >
 
           
+            <img className={styles.calendarGif} src={calendarAppGif} alt="Consulta Fit" />
 
-        </div>
-        
-      </section>   
-
-      
+            <h3 className='animate__animated animate__fadeInRight' id={styles.calendarAppTitle}>
+            Calendar App
+            </h3>
 
 
-      <section className={styles.gifAndBackground}>
-
-          <h3 id={styles.calendarTitle}>
-            CALENDAR APP
-          </h3>
-
-          <p className='animate__animated animate__fadeInLeft' id={styles.calendarParagraph}>
+             <p className='animate__animated animate__fadeInRight' id={styles.calendarAppParagraph}>
               Este proyecto es una calendario-agenda, en donde los usuarios pueden calendarizar sus eventos, colocando una fecha inicial y una final para después verlos desplegados en la interfaz general, en el día, semana o mes actual. Tiene autenticación para cada usuario, por lo que cada usuario sólamente puede eliminar o modificar los eventos que fueron creados por él mismo.
-          </p>
-
-        <div className='row'>
-          <div >
-          
-            <img  src={calendadAppBackImage} alt="Consulta Fit" />
-
+             </p>
             
 
-         
-            
-          </div>
-         
-          
-
-        </div>
-        
-       
-      </section>   
+      </section>  
 
 
-      <div className={styles.portafolioFooter}>
+      <footer className={styles.portafolioFooter}>
 
       <Footer />
 
-      </div>
-
+      </footer>
 
   </>
 
   )
 }
+

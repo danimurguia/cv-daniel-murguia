@@ -1,5 +1,6 @@
-
-
+body {
+  background-image: none;
+}
  .navbarAcercaDeMi nav {
 
   background-color: rgba(5, 5, 44, 0.808)  !important ;
@@ -9,12 +10,13 @@
   display: flex;
   transition: ease-out .45s ;
   z-index: 1;
+  overflow-x: hidden;
 }
 
 .imgAboutMe {
   position: relative;
   display: flex;
-  margin-top: 20vh;
+  margin-top: 15vh;
   margin-left: 5vw;
   height: 65vh;
 }
@@ -27,15 +29,10 @@
 }
 
  .card  {
-  border: none ;
+  border: none;
 }
 
-.acercaDeMiFooter {
-position: relative;
-margin-top: 150vh;
-background-color: black;
-color: aliceblue;
-}
+
 
 .despedidaAboutMe {
 margin-left: 40vw;
@@ -57,4 +54,55 @@ margin-left: 40vw;
  display: flex;
  
 }
+
+.acercaDeMiFooter {
+  position: relative;
+  margin-top: 150vh;
+  background-color: black;
+  color: aliceblue;
+  overflow-x: hidden;
+  }
  
+
+@media (max-width: 600px) {
+  .textAbouMe {
+    display: flex;
+   margin-top: 67vh;
+   position: absolute;
+   overflow-x: hidden;
+   font-size: medium;
+   padding-left: 5vw;
+  
+  }
+
+.navbarAcercaDeMi nav {
+  z-index: 1;
+}
+
+.tecnosAboutMe {
+  position: absolute;
+  margin-top: 150vh;
+  margin-left: 0vw;
+ padding-left: 5vw;
+}
+.tecnosAboutMe h3{
+  padding: 10%;
+ font-size: medium;
+
+}
+
+.tecnosAboutMe h5  {
+  margin-left: 0vw;
+  margin-top: 2vh;
+ display: flex;
+ font-size: smaller;
+}
+
+.acercaDeMiFooter {
+  margin-top: 260vh;
+  background-color: black;
+  color: aliceblue;
+  overflow-x: hidden;
+  width: 100%;
+  }
+}

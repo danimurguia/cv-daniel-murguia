@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from '../styles/footer.module.css'
 
 
 export const Footer = () => {
@@ -15,11 +14,11 @@ export const Footer = () => {
       {/* <!-- WhatsApp --> */}
       <a
         className="btn btn-link btn-floating btn-lg  m-1"
-        href="https://wa.me/3328102969"
+        href="https://wa.me/+523328102969"
         type="button"
         target="_blank"
         rel="noreferrer"
-        ><i class="bi bi-whatsapp"></i>
+        ><i className="bi bi-whatsapp"></i>
         </a>
       {/* <!-- Mail --> */}
       <a
@@ -28,7 +27,7 @@ export const Footer = () => {
         type="button"
         target="_blank"
         rel="noreferrer"
-        ><i class="bi bi-envelope-fill"></i>
+        ><i className="bi bi-envelope-fill"></i>
         </a>
 {/* 
       
